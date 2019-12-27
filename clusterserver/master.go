@@ -2,11 +2,11 @@ package clusterserver
 
 import (
 	"fmt"
-	"github.com/viphxin/xingo/cluster"
-	"github.com/viphxin/xingo/fserver"
-	"github.com/viphxin/xingo/iface"
-	"github.com/viphxin/xingo/logger"
-	"github.com/viphxin/xingo/utils"
+	"github.com/timesto/xingo/cluster"
+	"github.com/timesto/xingo/fserver"
+	"github.com/timesto/xingo/iface"
+	"github.com/timesto/xingo/logger"
+	"github.com/timesto/xingo/utils"
 	"sync"
 	"time"
 )

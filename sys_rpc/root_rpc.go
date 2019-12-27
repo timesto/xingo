@@ -1,11 +1,11 @@
 package sys_rpc
 
 import (
-	"github.com/viphxin/xingo/cluster"
+	"github.com/timesto/xingo/cluster"
 
-	"github.com/viphxin/xingo/clusterserver"
-	"github.com/viphxin/xingo/logger"
-	"github.com/viphxin/xingo/utils"
+	"github.com/timesto/xingo/clusterserver"
+	"github.com/timesto/xingo/logger"
+	"github.com/timesto/xingo/utils"
 )
 
 type RootRpc struct {

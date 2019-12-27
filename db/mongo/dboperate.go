@@ -6,7 +6,7 @@ import (
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 	"time"
-	"github.com/viphxin/xingo/logger"
+	"github.com/timesto/xingo/logger"
 )
 
 const (

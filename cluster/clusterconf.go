@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"io/ioutil"
-	"github.com/viphxin/xingo/logger"
+	"github.com/timesto/xingo/logger"
 )
 
 var cfgpath string

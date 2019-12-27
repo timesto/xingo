@@ -5,10 +5,10 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/viphxin/xingo/fnet"
-	"github.com/viphxin/xingo/iface"
+	"github.com/timesto/xingo/fnet"
+	"github.com/timesto/xingo/iface"
 	"encoding/gob"
-	"github.com/viphxin/xingo/logger"
+	"github.com/timesto/xingo/logger"
 )
 
 type RpcData struct {

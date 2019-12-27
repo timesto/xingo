@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"fmt"
 	"github.com/golang/protobuf/proto"
-	"github.com/viphxin/xingo/logger"
-	"github.com/viphxin/xingo/utils"
+	"github.com/timesto/xingo/logger"
+	"github.com/timesto/xingo/utils"
 )
 
 type PkgData struct {

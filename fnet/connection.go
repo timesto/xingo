@@ -3,9 +3,9 @@ package fnet
 import (
 	"errors"
 	"fmt"
-	"github.com/viphxin/xingo/iface"
-	"github.com/viphxin/xingo/logger"
-	"github.com/viphxin/xingo/utils"
+	"github.com/timesto/xingo/iface"
+	"github.com/timesto/xingo/logger"
+	"github.com/timesto/xingo/utils"
 	"net"
 	"sync"
 	"time"

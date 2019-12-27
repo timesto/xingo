@@ -3,11 +3,12 @@ package cluster
 import (
 	"errors"
 	"fmt"
-	"github.com/viphxin/xingo/logger"
-	"github.com/viphxin/xingo/utils"
 	_ "os"
 	"sync"
 	"time"
+
+	"github.com/timesto/xingo/logger"
+	"github.com/timesto/xingo/utils"
 )
 
 type AsyncResult struct {

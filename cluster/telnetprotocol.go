@@ -1,13 +1,13 @@
 package cluster
 
 import (
-	"github.com/viphxin/xingo/iface"
-	"github.com/viphxin/xingo/logger"
+	"github.com/timesto/xingo/iface"
+	"github.com/timesto/xingo/logger"
 	"fmt"
 	"time"
 	"bufio"
 	"strings"
-	"github.com/viphxin/xingo/utils"
+	"github.com/timesto/xingo/utils"
 )
 /*
 debug tool protocol

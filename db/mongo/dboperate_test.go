@@ -19,7 +19,7 @@ func Test_DailDB(t *testing.T){
 	dbo.OpenDB(nil)
 	dbo.CloseDB()
 }
-//go test -v github.com\viphxin\xingo\db\mongo -run ^Test_CommonOperate$
+//go test -v github.com\timesto\xingo\db\mongo -run ^Test_CommonOperate$
 func Test_CommonOperate(t *testing.T){
 	dbcfg := NewDbCfg("127.0.0.1", 27017, "xingodb", "", "")
 	//dbcfg := NewDbCfg("127.0.0.1", 27017, "xingodb", "admin", "admin")
@@ -97,7 +97,7 @@ func Test_CommonOperate(t *testing.T){
 	dbo.CloseDB()
 }
 
-//go test -v github.com\viphxin\xingo\db\mongo -bench ^Benchmark_CommonOperate$
+//go test -v github.com\timesto\xingo\db\mongo -bench ^Benchmark_CommonOperate$
 func Benchmark_CommonOperate(b *testing.B){
 	dbcfg := NewDbCfg("127.0.0.1", 27017, "xingodb", "", "")
 	//dbcfg := NewDbCfg("127.0.0.1", 27017, "xingodb", "admin", "admin")
@@ -176,7 +176,7 @@ func Benchmark_CommonOperate(b *testing.B){
 	dbo.CloseDB()
 }
 
-//go test -v github.com\viphxin\xingo\db\mongo -bench ^Benchmark_CommonOperatePP$
+//go test -v github.com\timesto\xingo\db\mongo -bench ^Benchmark_CommonOperatePP$
 func Benchmark_CommonOperatePP(b *testing.B){
 	dbcfg := NewDbCfg("127.0.0.1", 27017, "xingodb", "", "")
 	//dbcfg := NewDbCfg("127.0.0.1", 27017, "xingodb", "admin", "admin")
